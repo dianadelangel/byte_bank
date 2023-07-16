@@ -19,4 +19,14 @@ class cuenta {
             return false;
         }
     }
+
+    public boolean transferir(double valor,cuenta cuenta){
+        if(this.saldo >= valor){
+                this.saldo -= valor;
+                cuenta.depositar(valor);
+                return true;
+        }else{
+            return false;
+        }
+    }
 }
