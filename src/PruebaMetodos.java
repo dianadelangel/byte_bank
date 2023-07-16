@@ -8,7 +8,9 @@ public class PruebaMetodos {
 
         cuenta.saldo = 300;
         cuenta.depositar(500);
+        System.out.println(cuenta.saldo);
 
+        cuenta.retirar(200);
         System.out.println(cuenta.saldo);
     }
 }
