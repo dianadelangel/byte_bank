@@ -4,7 +4,8 @@ class cuenta{
     int numero;
     String titular;
 
-    void depositar(double valor){
-        saldo += valor;
+    public void depositar(double saldo){
+
+        this.saldo += saldo;
     }
 }
