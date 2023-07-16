@@ -10,5 +10,6 @@ public class TestReferenciaCliente {
         cuentaSara.titular = sara;
 
         System.out.println(cuentaSara.titular.documento);
+        System.out.println(cuentaSara.titular.titular);
     }
 }
